@@ -23,28 +23,32 @@ In this project, a form is made which collects a user's daily health information
 ## Setup and Project Overview:
 ### Rasa Forms 
 #### Output in Shell:
+
 Follow below commands to create a virtual environment named 'rasa1' in conda. This will allow you to run Rasa without errors.
 
 conda create -n rasa1 python=3.6
+
 conda activate rasa1
 
-Now install rasa
-pip3 install rasa==1.10.2
+Now install rasa 1.10.2 -> pip3 install rasa==1.10.2
 
 Since the project is already made and trained, the following commands mentioned are not required.
 
 rasa init      #to initialize a new project.
+
 rasa train     #to train the rasa model.
 
 Run the following commands:
-Open command prompt in the project directory.
 
-rasa run actions
+Open command prompt in the project directory:
+
+-> rasa run actions
+
 ![](images/actionserver.jpg)
 
-Open another command prompt
+Open another command prompt:
 
-rasa shell
+-> rasa shell
 
 Bot will be loaded in the shell as shown below:
 ![](images/rasashell.jpg)
@@ -53,7 +57,7 @@ In the above image, we can see that output is visible in the shell itself.
 Now to store this output to analyze it effectively, we will connect it with Airtable which is basically a spreadsheet program.
 
 ## Connecting with Airtable
-### Open the project folder 'Connecting with Airtable' and follow through-
+### Open the project folder - 'Connecting with Airtable' and follow through-
 
 1. Signup and make an account on https://airtable.com
 
@@ -64,15 +68,17 @@ Now to store this output to analyze it effectively, we will connect it with Airt
 
 4. Open Command prompt –> pip install python-dotenv==0.14.0
 
-5. Open another command prompt -> rasa train
+5. -> rasa train
 
 6. Open another command prompt -> rasa run actions
-![](images/actionserver.jpg)
+![](images/as.jpg)
 
-7. Return to the first terminal window and start the assistant on the command line -> rasa shell
+7. Return to the first terminal window and start the assistant on the command line: 
+
+-> rasa shell
 
 Bot will be loaded. Answer to the questions will now be saved to the Airtable.
-![](images/rasashell.jpg)
+![](images/rs.jpg)
 ![](images/airt.jpg)
 
 
