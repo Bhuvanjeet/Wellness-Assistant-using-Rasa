@@ -21,7 +21,8 @@ In this project, a form is made which collects a user's daily health information
 
 
 ## Setup and Project Overview:
-### Rasa Forms output in Shell
+### Rasa Forms 
+#### Output in Shell:
 Follow below commands to create a virtual environment named 'rasa1' in conda. This will allow you to run Rasa without errors.
 
 conda create -n rasa1 python=3.6
