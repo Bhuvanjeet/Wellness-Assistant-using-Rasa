@@ -66,6 +66,7 @@ Now to store this output to analyze it effectively, we will connect it with Airt
 2. Download the Airtable template and generate an Airtable API token. You'll also need to locate your Table Name and Base ID, which can be found in the Airtable API docs.
 
 3. Make a .env file in the project directory and add your Airtable API token, Base ID, and Table Name to the file, as shown below.
+
 ![](images/env.JPG)
 
 4. Open Command prompt:
